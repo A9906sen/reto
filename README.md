@@ -1,6 +1,19 @@
 # reto
 
+Esta es una API desarrollada en **Java con Spring Boot** para la gestión de franquicias. El sistema permite administrar **sucursales**, y cada sucursal tiene su propio inventario de **productos**.
+
+## 🚀 Tecnologías utilizadas
+
+- Java 17+
+- Spring Boot
+- MongoDB
+- Maven (o Gradle)
+- Spring Data MongoDB
+
+## 🧱 Estructura del sistema
+
 ```mermaid
 graph TD
-    A[Inicio] --> B[Proceso]
-    B --> C[Fin]
+    A[Franquicia] --> B[Sucursal]
+    B --> C[Producto]
+
